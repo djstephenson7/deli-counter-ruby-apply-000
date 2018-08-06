@@ -8,7 +8,6 @@ def line
 
   def take_a_number(katz_deli, other_deli)
     puts "Welcome #{other_deli}, your are number #{katz_deli} in line."
-
   end
 
   def now_serving
