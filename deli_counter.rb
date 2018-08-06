@@ -15,6 +15,6 @@ def line
     if katz_deli.length == 0
       puts "There is no one waiting to be served!"
     else
-      katz_deli.each {|x, y| puts x, y}
+      puts "Currently serving #{katz_deli.shift}."
     end
   end
