@@ -12,7 +12,7 @@ def line
 
   def now_serving
     if katz_deli > 0
-      puts 
+      puts
       katz_deli.each {|x, y| puts x, y}
     end
   end
