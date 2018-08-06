@@ -11,4 +11,8 @@ def line
   end
 
   def now_serving
+    if katz_deli > 0
+      puts 
+      katz_deli.each {|x, y| puts x, y}
+    end
   end
