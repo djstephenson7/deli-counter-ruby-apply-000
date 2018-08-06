@@ -7,6 +7,7 @@ def line
   end
 
   def take_a_number(katz_deli, other_deli)
+    puts 
 
   end
 
