@@ -12,8 +12,9 @@ def line
   end
 
   def now_serving
-    if katz_deli > 0
-      puts
+    if katz_deli.length == 0
+      puts "There is no one waiting to be served!"
+    else
       katz_deli.each {|x, y| puts x, y}
     end
   end
