@@ -1,10 +1,4 @@
 # Write your code here.
-katz_deli = []
-
-def line
-  if katz_deli == 0
-    puts "The line is currently empty."
-  end
 
   def take_a_number(katz_deli, name)
     katz_deli << name
@@ -18,3 +12,10 @@ def line
       puts "Currently serving #{katz_deli.shift}."
     end
   end
+
+  def line
+    if katz_deli == 0
+      puts "The line is currently empty."
+    else
+      puts "The line is currently:"
+    end
